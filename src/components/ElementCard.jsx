@@ -30,7 +30,7 @@ const ElementCard = () => {
             size="small"
             bordered={false}
             bodyStyle={{ minHeight: "80px", minWidth: "100%" }}
-            className={`tw-group tw-shadow-md hover:tw-bg-${type.name} hover:tw-bg-opacity-80 tw-bg-dragon`}
+            className={`tw-group tw-shadow-md hover:tw-bg-${type.name} hover:tw-bg-opacity-80`}
           >
             <Row align="middle" justify="space-between" className="tw-px-2">
               <Col span={16}>

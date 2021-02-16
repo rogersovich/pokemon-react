@@ -25,7 +25,7 @@ const ElementCard = () => {
   return (
     <QueueAnim type="left" delay={300} className="queue-simple">
       {types.map((type) => (
-        <Col xs={24} md={6} key={type.name} className="w-full inline-block bg-red-300">
+        <Col xs={24} md={6} key={type.name} className="w-full inline-block bg-red-300 xs:my-4">
           <Card
             size="small"
             bordered={false}

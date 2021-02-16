@@ -16,7 +16,7 @@ function Home() {
         <Col span={24}>
           <QueueAnim type="left" delay={300} className="queue-simple">
             <div key="title">
-              <Title className="uppercase" level={screens.xs ? 3 : 2}>
+              <Title className="tw-uppercase" level={screens.xs ? 3 : 2}>
                 Choose your Element
               </Title>
             </div>

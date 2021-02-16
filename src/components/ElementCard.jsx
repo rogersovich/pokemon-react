@@ -25,18 +25,18 @@ const ElementCard = () => {
   return (
     <QueueAnim type="left" delay={300} className="queue-simple">
       {types.map((type) => (
-        <Col xs={24} md={6} key={type.name} className="bismillah">
+        <Col xs={24} md={6} key={type.name} className="w-full inline-block bg-red-300">
           <Card
             size="small"
             bordered={false}
             bodyStyle={{ minHeight: "80px", minWidth: "100%" }}
-            className={`group shadow-md hover:bg-${type.name} hover:bg-opacity-80`}
+            className={`group shadow-md hover:bg-${type.name} hover:bg-opacity-80 bg-blue-800`}
           >
             <Row align="middle" justify="space-between" className="px-2">
               <Col span={16}>
                 <Title
                   level={screens.xs ? 4 : 3}
-                  className="text-gray-900 capitalize font-medium text-opacity-80 group-hover:text-white"
+                  className="text-gray-900 capitalize font-medium text-opacity-80 group-hover:text-red"
                 >
                   {type.name}
                 </Title>

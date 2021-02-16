@@ -12,7 +12,7 @@ function Home() {
 
   return (
     <Web>
-      <Row gutter={[32, 24]}>
+      <Row gutter={[32, 32]}>
         <Col span={24}>
           <QueueAnim type="left" delay={300} className="queue-simple">
             <div key="title">

@@ -23,7 +23,7 @@ const ElementCard = () => {
   }, []);
 
   return (
-    <QueueAnim type="bottom" delay={300} className="queue-simple">
+    <QueueAnim type="left" delay={300} className="queue-simple">
       {types.map((type) => (
         <Col xs={24} md={6} key={type.name} className="bismillah">
           <Card

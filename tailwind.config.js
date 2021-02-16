@@ -5,7 +5,8 @@ module.exports = {
   important: true,
   theme: {
     extend: {
-      backgroundColor: {
+      backgroundColor: theme => ({
+        ...theme('colors'),
         normal: "#b2bec3",
         fighting: '#ff9f43',
         flying: '#0984e3',
@@ -26,7 +27,7 @@ module.exports = {
         fairy: '#FDA7DF',
         unknown: '#353b48',
         shadow: '#833471',
-      },
+       })
     },
   },
   variants: {
